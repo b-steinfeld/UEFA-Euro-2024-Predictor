@@ -1,0 +1,16 @@
+,actual,prediction,Date,Team,Opponent,Result
+102,0,0,2024-07-01,Belgium,France,D
+223,0,1,2024-06-29,Denmark,Germany,D
+224,0,0,2024-07-05,Denmark,Spain,D
+297,0,1,2024-07-05,France,Slovenia,D
+434,0,1,2024-06-29,Italy,Switzerland,D
+435,0,1,2024-07-06,Italy,Slovakia,D
+436,0,1,2024-07-10,Italy,Turkiye,D
+480,0,1,2024-07-02,Netherlands,Romania,D
+706,0,1,2024-06-30,Slovakia,England,D
+746,0,1,2024-07-01,Slovenia,Portugal,D
+786,0,1,2024-06-30,Spain,Georgia,D
+787,0,1,2024-07-09,Spain,France,D
+788,0,1,2024-07-14,Spain,Italy,D
+863,0,1,2024-07-02,Turkiye,Austria,D
+864,0,1,2024-07-06,Turkiye,Netherlands,D
