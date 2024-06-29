@@ -16,14 +16,15 @@ My Predicted Winner: Spain
 This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more!
 
 For the future, I do want to come back to this project in order to:
-1. remodel my algorithm in order to predict draws (which would allow me to try to predict the group stages and potentially gain better precision in my model).
-2. not have to manually create CSV files for each part of the tournament I'm predicting (so, build code that automatically does this process).
-3. did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results?
-4. finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
-5. potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
-6. should I consider group stage games as I couldn't predict them orignally?
+1. Remodel my algorithm in order to predict draws (which would allow me to try to predict the group stages and potentially gain better precision in my model).
+2. Not have to manually create CSV files for each part of the tournament I'm predicting (so, build code that automatically does this process).
+3. Did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results?
+4. Finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
+5. Potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
+6. Should I consider group stage games as I couldn't predict them originally?
    - Considered group stage games apart of train data. Results are different, but winner 
      stays. Check out "Group Stages in Train Data" for results.
-8. when the tournament is over, compare results.
+8. When the tournament is over, compare results.
+   - Group stage precision results now compared. Both with and without draws involved.
 
 Note: "matchesplusgroupstage.csv" was not used in the prediction process. Rather, just here if I decide to utilize it in anyway in the future.
