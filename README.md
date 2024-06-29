@@ -3,7 +3,7 @@ Goal: Trying to predict the 2024 Euros using webscrapping and machine learning.
 
 Webscrapping: Extracted match data from the last five years of international soccer through FBref. However, within those five years, did not extract any data from friendly matches. Why? Friendly matches don't track signficant statistics, while also being considered to be less competitive games.
 
-Model Predictor: The train data included matches prior to the 2022 World Cup, while the test data included the 2022 World Cup till matches prior to the 2024 Euros. However, my model (currently) does not predict draws. 
+Model Predictor: The train data included matches prior to the 2022 World Cup, while the test data included the 2022 World Cup till matches prior to the 2024 Euros. However, my model (currently) does not predict draws. My model uses a Random Forest Classifier and predictions always stay the same.
 
 No Draws vs. With Draws: When games that involve draws are a part of the test data, the algorithm has a precision of about 70%; just enough to be classifed as a useful model. On the other hand, when games that involve draws are NOT a part of the test data, the algorithm has a precision of about 88%; very much can be considered to be a useful model. It should be noted that for both algorithms, drawn games ARE a part of the TRAIN data as it strengthens the precision of the model.
 
