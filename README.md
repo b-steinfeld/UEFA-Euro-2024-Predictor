@@ -21,6 +21,7 @@ For the future, I do want to come back to this project in order to:
 3. did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results?
 4. finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
 5. potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
-6. when the tournament is over, compare results.
+6. should I consider group stage games as I couldn't predict them orignally?
+7. when the tournament is over, compare results.
 
 Note: "matchesplusgroupstage.csv" was not used in the prediction process. Rather, just here if I decide to utilize it in anyway in the future.
