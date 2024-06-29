@@ -9,13 +9,13 @@ No Draws vs. With Draws: When games that involve draws are a part of the test da
 
 As my model (currently) does not predict draws, I decided not to try to predict the group stages as draws are possible. Furthermore, because the round of 16, quarter-finals, semi-finals, and finals, must all end with a win or loss for each team, in this scenario it is fair to say the model has a precision closer to 88% than that of 70%. 
 
-Then, a future predictor was created; in which, the test data would be each part of the tournament (round of 16, quarterfinals, semifinals, and the final). As these are future matches, each of these csv(s) were manually created based on the outcome predicted for each part.
+Future Predictor: The train data included matches prior to the 2024 Euros, while the test data would be each round of the tournament (besides the group stages). As these are future matches, we cannot webscrape. Therefore, each CSV file (for each round) was manually created based on the outcome predicted for the prior round. (See the "Train+Test Data for Future Predictions" folder).
 
 My Predicted Winner: Spain
 
 For the future, I do want to come back to this project in order to:
-1. remodel my algorithm in order to predict draws.
-2. not having to manually create csv(s) for each part of the torunament I'm are predicing.
-3. did not predict both sides (team becomes opponent, opponent becomes team); conflicting results?
+1. remodel my algorithm in order to predict draws (which would allow me to try to predict the group stages and potentially gain better precision in my model).
+2. not have to manually create CSV files for each part of the tournament I'm predicting (so, build code that automatically does this process).
+3. did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results?
 
 Note: "matchesplusgroupstage.csv" was not used in the prediction process. Rather, just here if I decide to utilize it in anyway in the future.
