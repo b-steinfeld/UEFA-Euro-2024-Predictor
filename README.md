@@ -12,7 +12,9 @@ As my model (currently) does not predict draws, I decided not to try to predict 
 Future Predictor: The train data included matches prior to the 2024 Euros, while the test data would be each round of the tournament (besides the group stages). I did not utilize past rounds in the train data (ex. using the round of 16 results I predicted to influence the model when predicting the quarter-finals) as these are future matches with no data. Additionally, as these are future matches, we cannot webscrape. Therefore, each CSV file (for each round) was manually created based on the outcome predicted for the prior round. (See the "Train+Test Data for Future Predictions" folder).
    - Update (6/29/24): Originally my test data included only matches prior to the 2024 Euros 
      as I had originally planned to predict the group stage, but couldn't as my (current) 
-     model doesn't predict draws. But now, I have seperately utilized the group stages within       my test data alongside prior matches. Results can be found in the "Group Stages in Train       Data" folder. 
+     model doesn't predict draws. But now, I have seperately utilized the group stages within       my test data alongside prior matches. Results can be found in the "Group Stages in Train       Data" folder. However, my first predictions will stand as my main predictions. If I 
+     decide to switch it, I will rearrange everything; either way both predictions are 
+     viewable.
 
 My Predicted Winner: Spain
 
