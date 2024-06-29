@@ -22,6 +22,8 @@ For the future, I do want to come back to this project in order to:
 4. finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
 5. potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
 6. should I consider group stage games as I couldn't predict them orignally?
-7. when the tournament is over, compare results.
+   - Considered group stage games apart of train data. Results are different, but winner 
+     stays. Check out "Group Stages in Train Data" for results.
+8. when the tournament is over, compare results.
 
 Note: "matchesplusgroupstage.csv" was not used in the prediction process. Rather, just here if I decide to utilize it in anyway in the future.
