@@ -31,5 +31,3 @@ For the future, I do want to come back to this project in order to:
 8. When the tournament is over, compare results.
    - Group stage precision results now compared. Both with and without draws involved.
      - Should I include each result (actual vs predicted)?
-
-Note: "matchesplusgroupstage.csv" was not used in the prediction process. Rather, just here if I decide to utilize it in anyway in the future.
