@@ -10,7 +10,7 @@ No Draws vs. With Draws: When games that involve draws are a part of the test da
 As my model (currently) does not predict draws, I decided not to try to predict the group stages as draws are possible. Furthermore, because the round of 16, quarter-finals, semi-finals, and finals, must all end with a win or loss for each team, in this scenario it is fair to say the model has a precision closer to 88% than that of 70%. 
 
 Future Predictor: The train data included matches prior to the 2024 Euros, while the test data would be each round of the tournament (besides the group stages). I did not utilize past rounds in the train data (ex. using the round of 16 results I predicted to influence the model when predicting the quarter-finals) as these are future matches with no data. Additionally, as these are future matches, we cannot webscrape. Therefore, each CSV file (for each round) was manually created based on the outcome predicted for the prior round. (See the "Train+Test Data for Future Predictions" folder).
-   - Originally my test data included only matches prior to the 2024 Euros as I had orignally 
+   - Originally my test data included only matches prior to the 2024 Euros as I had originally 
      planned to predict the group stage. However, I did also seperately utilized the group 
      stages within my test data alongside prior matches. Results can be found in the "Group 
      Stages in Train Data" folder.
