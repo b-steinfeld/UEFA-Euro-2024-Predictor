@@ -10,3 +10,5 @@ Then, a future predictor was created; in which, the test data would be each part
 For the future, I do want to come back to this project in order to:
 1. remodel my algorithm in order to predict draws.
 2. not having to manually create csv(s) for each part of the torunament I'm are predicing.
+
+Note: "matchesplusgroupstage.csv" was not used in the prediction process. Rather, just here if I decide to utilize it in anyway in the future.
