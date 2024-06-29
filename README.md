@@ -19,6 +19,8 @@ My Predicted Winner: Spain
 
 This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more!
 
+-----------------------------------------------------------------------------------------------
+
 For the future, I do want to come back to this project in order to:
 1. Remodel my algorithm in order to predict draws (which would allow me to try to predict the group stages and potentially gain better precision in my model).
 2. Not have to manually create CSV files for each part of the tournament I'm predicting (so, build code that automatically does this process).
