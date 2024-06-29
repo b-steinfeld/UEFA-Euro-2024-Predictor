@@ -18,15 +18,16 @@ Future Predictor: The train data included matches prior to the 2024 Euros, while
 
 My Predicted Winner: Spain
 
-This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more!
+This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more! I know there are some stuff I still need to work on and figure out, but I know this will also help me get deeper into the world of ML and computer science.
 
 -----------------------------------------------------------------------------------------------
 
-For the future, I do want to come back to this project in order to:
+For the future (even after the tournament), I do want to come back to this project in order to (as a continued learning experience):
 1. Remodel my algorithm in order to predict draws (which would allow me to try to predict the group stages and potentially gain better precision in my model).
 2. Not have to manually create CSV files for each part of the tournament I'm predicting (so, build code that automatically does this process).
-3. Did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results (and what to do about them)?
+3. Did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results (aka both teams predicted to win/lose and what do I do about them)?
    - Main concern!
+   - Also did not combine both sides of results to check precision in the model predictor and see if results did not conflict (one team wins, one team loses).
 4. Finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
 5. Potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
 6. Should I consider group stage games as I couldn't predict them originally?
