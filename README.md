@@ -7,6 +7,8 @@ I decided not to try to predict the group stages as draws are possible; my model
 
 Then, a future predictor was created; in which, the test data would be each part of the tournament (round of 16, quarterfinals, semifinals, and the final). As these are future matches, each of these csv(s) were manually created based on the outcome predicted for each part.
 
+My Predicted Winner: Spain
+
 For the future, I do want to come back to this project in order to:
 1. remodel my algorithm in order to predict draws.
 2. not having to manually create csv(s) for each part of the torunament I'm are predicing.
