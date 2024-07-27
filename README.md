@@ -9,9 +9,12 @@ No Draws vs. With Draws: When games that involve draws are a part of the test da
 
 As my model does not predict draws, I decided not to try to predict the group stages as draws are possible. Furthermore, because the round of 16, quarter-finals, semi-finals, and finals, must all end with a win or loss for each team, in this scenario it is fair to say the model has a precision closer to 88% than that of 70%. 
 
-Future Predictor: The train data included matches prior to the 2024 Euros and the group stage of the 2024 Euros, while the test data would be each round of the tournament (besides the group stages). I did not utilize past rounds in the train data (ex. using the round of 16 results I predicted to influence the model when predicting the quarter-finals) as these are future matches with no data. Additionally, as these are future matches, we cannot webscrape. Therefore, each CSV file (for each round) was manually created based on the outcome predicted for the prior round. (See the "Train+Test Data for Future Predictions" folder).
+Future Predictor: The train data included matches prior to the 2024 Euros and the group stage of the 2024 Euros (train data without the group stages was also seperately tested to see any difference), while the test data would be each round of the tournament (besides the group stages). I did not utilize past rounds in the train data (ex. using the round of 16 results I predicted to influence the model when predicting the quarter-finals) as these are future matches with no data. Additionally, as these are future matches, we cannot webscrape. Therefore, each CSV file (for each round) was manually created based on the outcome predicted for the prior round. (See the "How Future Matches were Tested" folder). 
 
 My Predicted Winner: Spain
+
+Actual Winner: Spain
+Prediction Precision: 11/15 -> 
 
 This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more! I know there are some stuff I still need to work on and figure out, but I know this will also help me get deeper into the world of ML and computer science.
 
