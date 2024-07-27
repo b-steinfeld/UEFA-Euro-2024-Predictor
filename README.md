@@ -7,7 +7,7 @@ Model Predictor: The train data included matches prior to the 2022 World Cup, wh
 
 No Draws vs. With Draws: When games that involve draws are a part of the test data, the algorithm has a precision of about 70%; just enough to be classifed as a useful model. On the other hand, when games that involve draws are NOT a part of the test data, the algorithm has a precision of about 88%; very much can be considered to be a useful model. It should be noted that for both algorithms, drawn games ARE a part of the TRAIN data as it strengthens the precision of the model.
 
-As my model does not predict draws, I decided not to try to predict the group stages as draws are possible. Furthermore, because the round of 16, quarter-finals, semi-finals, and finals, must all end with a win or loss for each team, in this scenario it is fair to say the model has a precision closer to 88% than that of 70%. 
+As my model does not predict draws, I decided not to try to predict the group stages as draws are possible and instead use the group stage results in the train data of the 'Future Predictor'. Furthermore, because the round of 16, quarter-finals, semi-finals, and finals, must all end with a win or loss for each team, in this scenario it is fair to say the model has a precision closer to 88% than that of 70%. 
 
 Future Predictor: The train data included matches prior to the 2024 Euros AND the group stage of the 2024 Euros (originally, had train data without the group stages; was tested and had a prediction precision of 8/11 -> 53.3%), while the test data would be each round of the tournament (besides the group stages). I did not utilize past rounds in the train data (ex. using the round of 16 results I predicted to influence the model when predicting the quarter-finals) as these are future matches with no data. Additionally, as these are future matches, we cannot webscrape. Therefore, each CSV file (for each round) was manually created based on the outcome predicted for the prior round. (See the "How Future Matches were Tested" folder). 
 
@@ -28,9 +28,6 @@ For the future (even after the tournament), I do want to come back to this proje
    - If both teams "won", for example, what decides who wins? 
 4. Finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
 5. Potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
-6. Should I consider group stage games as I couldn't predict them originally?
-   - Considered group stage games apart of train data. Results are different, but winner 
-     stays. Check out "Group Stages in Train Data" for results.
-7. When the tournament is over, compare results.
+6. When the tournament is over, compare results.
    - Group stage precision results now compared. Both with and without draws involved.
      - Should I include each result (actual vs predicted)?
