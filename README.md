@@ -14,6 +14,7 @@ Future Predictor: The train data included matches prior to the 2024 Euros and th
 My Predicted Winner: Spain
 
 Actual Winner: Spain
+
 Prediction Precision: 11/15 -> 
 
 This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more! I know there are some stuff I still need to work on and figure out, but I know this will also help me get deeper into the world of ML and computer science.
