@@ -25,6 +25,7 @@ For the future (even after the tournament), I do want to come back to this proje
 3. Did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results (aka both teams predicted to win/lose and what do I do about them)?
    - Main concern!
    - Also did not combine both sides of results to check precision in the model predictor and see if results did not conflict (one team wins, one team loses).
+   - If both teams "won", for example, what decides who wins? 
 4. Finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
 5. Potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
 6. Should I consider group stage games as I couldn't predict them originally?
