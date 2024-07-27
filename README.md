@@ -11,7 +11,7 @@ As my model does not predict draws, I decided not to try to predict the group st
 
 Future Predictor: The train data included matches prior to the 2024 Euros and the group stage of the 2024 Euros (train data without the group stages was also seperately tested to see any difference), while the test data would be each round of the tournament (besides the group stages). I did not utilize past rounds in the train data (ex. using the round of 16 results I predicted to influence the model when predicting the quarter-finals) as these are future matches with no data. Additionally, as these are future matches, we cannot webscrape. Therefore, each CSV file (for each round) was manually created based on the outcome predicted for the prior round. (See the "How Future Matches were Tested" folder). 
 
-My Predicted Winner: Spain -> **Actual Winner: Spain **
+My Predicted Winner: Spain -> Actual Winner: Spain!
 
 Prediction Precision: 11/15 -> 0.733
 
