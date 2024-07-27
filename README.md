@@ -15,7 +15,7 @@ My Predicted Winner: Spain -> Actual Winner: Spain!
 
 Prediction Precision: 11/15 -> 73.3%
 
-This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more! I know there are some stuff I still need to work on and figure out, but I know this will also help me get deeper into the world of ML and computer science.
+This is my first ever major ML project. I'm proud of what I've done and learned along the way, and hope to continue learning and creating more! I know there are some stuff I still need to work on and figure out, but I know this will also help me get deeper into the world of ML and computer science. I also utilized comments in the code to keep track of everything I did. NOTE: The comments in futurepredictor.ipynb correlate with the model predictor files; that's why they don't have any comments.
 
 -----------------------------------------------------------------------------------------------
 
@@ -26,8 +26,7 @@ For the future (even after the tournament), I do want to come back to this proje
    - Main concern!
    - Also did not combine both sides of results to check precision in the model predictor and see if results did not conflict (one team wins, one team loses).
    - If both teams "won", for example, what decides who wins? 
-4. Finishing adding notes to each part of the code in order to convey each lines/blocks purpose.
-5. Potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
-6. When the tournament is over, compare results.
+4. Potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
+5. When the tournament is over, compare results.
    - Group stage precision results now compared. Both with and without draws involved.
      - Should I include each result (actual vs predicted)?
