@@ -22,6 +22,7 @@ This is my first ever major ML project. I'm proud of what I've done and learned 
 For the future (even after the tournament), I do want to come back to this project in order to (as a continued learning experience) improve what I could have done. These are listed in no specific order:
 1. Remodel my algorithm in order to predict draws (which would allow me to try to predict the group stages and potentially gain better precision in my model).
 2. Not have to manually create CSV files for each part of the tournament I'm predicting (so, build code that automatically does this process). NEXT!
+   - Thought: get prediction, add back to data, iterate again till the final.
 3. Did not predict both sides (team becomes opponent, opponent becomes team); possible conflicting results (aka both teams predicted to win/lose and what do I do about them)?
    - Main concern!
    - Also did not combine both sides of results to check precision in the model predictor and see if results did not conflict (one team wins, one team loses).
