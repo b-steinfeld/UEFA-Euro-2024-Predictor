@@ -28,6 +28,3 @@ For the future (even after the tournament), I do want to come back to this proje
    - If both teams "won", for example, what decides who wins? 
 3. Potentially figure out other ways to grow precision (more data, different reference, new model, strength of team/how much team is worth, etc)?
 4. Remodel my algorithm in order to predict draws (which would allow me to try to predict the group stages and potentially gain better precision in my model).
-5. When the tournament is over, compare results.
-   - Group stage precision results now compared. Both with and without draws involved.
-     - Should I include each result (actual vs predicted)?
